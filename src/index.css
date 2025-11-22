@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+/* Floating animation for the right-side image */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Futuristic social icons */
+.social-icon {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px) scale(1.08);
+  box-shadow: 0 6px 16px rgba(59,130,246,0.35);
+}
+
+/* Chatbot slide-up animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease-out forwards;
+}

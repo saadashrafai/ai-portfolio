@@ -15,6 +15,10 @@ dist-ssr
 .env.local
 .env*.local
 
+# Backend folders (separate repositories)
+backend/
+backend-standalone/
+
 # Vercel
 .vercel
 
